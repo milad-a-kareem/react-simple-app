@@ -1,0 +1,27 @@
+.CategoriesPage{
+    padding: 0 53px ;
+}
+
+.cat-container{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.cat-card{
+    border: 2px solid blue;
+    border-radius:7px;
+    padding: 25px;
+    margin: 7px;
+}
+
+.cat-card:hover{
+    background: #eeeeee;
+    cursor: pointer;
+}
+
+.left-header{
+    display:flex;
+    flex-direction: row;
+    align-items: center
+}

@@ -1,0 +1,16 @@
+.HomeButton{
+    display: flex;
+    flex-direction: row;
+    
+}
+.HomeButton:hover{
+    cursor: pointer;
+}
+
+.h-svg{
+    margin-right: 15px;
+}
+
+.h-svg:hover{
+    fill:blue;
+}

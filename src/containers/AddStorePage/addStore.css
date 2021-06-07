@@ -1,0 +1,50 @@
+.a-form{
+    display:flex;
+    flex-direction: column;
+    padding: 33px;
+    border: 3px solid blue;
+    border-radius:7px
+
+}
+
+.a-i-container{
+    margin: 7px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-start;
+    border:1px solid grey;
+    border-radius: 7px;
+    padding: 7px
+}
+
+label {
+    margin: 0 7px;
+    color: blue;
+}
+
+button{
+    margin: 15px;
+    width: 175px;
+    height: 45px;
+    background:white;
+    color: blue;
+    border-radius: 7px;
+    text-decoration: bold;
+}
+button:hover{
+    background:blue;
+    color: white;
+    cursor: pointer
+}
+
+input{
+    border:none
+}
+
+.AddStorePage{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}

@@ -1,0 +1,38 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .h-next, .h-prev{
+      color:blue;
+      cursor: pointer;
+      margin:25px
+  }
+  .h-page-controls{
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+      justify-content: space-between;
+  }
+
+  .container{
+    padding: 0 53px ;
+  }
+
+  .home-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center
+  }
